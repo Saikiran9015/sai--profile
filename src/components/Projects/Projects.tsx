@@ -7,36 +7,25 @@ import SectionHeading from '../ui/SectionHeading';
 const projects = [
   {
     id: 1,
-    title: 'Digital Security System (Cyber.AI)',
+    title: 'SYBRAI',
     category: 'AI | Security',
     description: 'AI-based malware detection and real-time intrusion prevention system with 94% accuracy.',
     image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800',
     tags: ['Python', 'AI', 'Security', 'MongoDB'],
-    link: 'https://www.ktrigger.com/',
+    link: 'https://www.sybrai.com/',
     github: 'https://github.com/abbusaikiran/',
     details: 'Achieved 94% accuracy in intrusion detection using anomaly detection. Real-time network monitoring and system health dashboard.'
   },
   {
     id: 2,
-    title: 'Chatbot with Local LLM',
-    category: 'AI | Chatbot',
-    description: 'Privacy-focused chatbot using LLaMA 2/Ollama for offline multi-turn conversations.',
+    title: 'Claufe',
+    category: 'E-commerce Platform',
+    description: 'E-commerce platform for selling and buying products.',
     image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd05a?auto=format&fit=crop&q=80&w=800',
-    tags: ['LLM', 'Ollama', 'Python', 'React'],
+    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     link: 'https://www.claufe.in/',
     github: 'https://github.com/abbusaikiran/',
-    details: 'Integrated local LLM runtimes for entirely offline operation. Supported context retention and secure session management.'
-  },
-  {
-    id: 3,
-    title: 'Smart Inventory Management',
-    category: 'ML | Analytics',
-    description: 'Predictive analytics system for demand forecasting and automated purchase generation.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
-    tags: ['ML', 'Analytics', 'Predictive', 'Dashboard'],
-    link: 'https://farmer-weld.vercel.app/',
-    github: 'https://github.com/abbusaikiran/',
-    details: 'Achieved 89% accuracy in demand forecasting. Automated reorder alerts and purchase order generation.'
+    details: 'Claufe is an e-commerce platform for selling and buying products. It is built with React, Node.js, MongoDB, and Stripe. It has a user-friendly interface and a wide range of products to choose from. It also has a secure payment system and a reliable delivery network.'
   }
 ];
 

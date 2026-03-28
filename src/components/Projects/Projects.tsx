@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import { ExternalLink, Code, Maximize2, X } from 'lucide-react';
 import SectionHeading from '../ui/SectionHeading';
+import sybraiImg from '../../assets/projects/sybrai.png';
+import claufeImg from '../../assets/projects/claufe.png';
 
 const projects = [
   {
@@ -10,7 +12,7 @@ const projects = [
     title: 'SYBRAI',
     category: 'AI | Security',
     description: 'AI-based malware detection and real-time intrusion prevention system with 94% accuracy.',
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800',
+    image: sybraiImg,
     tags: ['Python', 'AI', 'Security', 'MongoDB'],
     link: 'https://www.sybrai.com/',
     github: 'https://github.com/abbusaikiran/',
@@ -21,7 +23,7 @@ const projects = [
     title: 'Claufe',
     category: 'E-commerce Platform',
     description: 'E-commerce platform for selling and buying products.',
-    image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd05a?auto=format&fit=crop&q=80&w=800',
+    image: claufeImg,
     tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     link: 'https://www.claufe.in/',
     github: 'https://github.com/abbusaikiran/',

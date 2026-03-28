@@ -38,7 +38,7 @@ const About = () => {
   ];
 
   const education = [
-    { title: 'B.Tech in CS (Data Science)', date: '2023 - 2027', institution: 'Balaji Institute of Technology & Science', desc: 'Pursuing specialization in Data Science and AI.' },
+    { title: 'B.Tech in CSE (Data Science)', date: '2023 - 2027', institution: 'Balaji Institute of Technology & Science', desc: 'Pursuing specialization in Data Science and AI.' },
     { title: 'Intermediate (MPC)', date: '2021 - 2023', institution: 'Govt. Junior College', desc: 'Completed with 64% marks.' },
   ];
 
